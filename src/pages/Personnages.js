@@ -32,6 +32,7 @@ const Personnages = () => {
                 src={`${elem.thumbnail.path}.${elem.thumbnail.extension}`}
                 alt=""
               />
+              <p>{elem.description}</p>
             </div>
           </div>
         );
